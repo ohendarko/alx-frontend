@@ -3,24 +3,24 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body, a {
   color: var(--text-color);
 }
 
-a {
+/* a {
   color: var(--text-color);
-}
+} */
 
 .visually-hidden {
   display: none;
 }
 
-.card-category {
+.card-category, .section-tagline {
   color: var(--color-primary);
 }
-.section-tagline {
+/* .section-tagline {
   color: var(--color-primary);
-}
+} */
 
 :root {
   --color-primary: #d73953;
