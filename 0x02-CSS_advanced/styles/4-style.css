@@ -3,11 +3,12 @@ html {
     scroll-behavior: smooth;
   }
   
-  body, a {
+  a {
     color: var(--text-color);
   }
 
   body {
+    color: var(--text-color);
     font-family: var(--font-family-base);
   }
 
