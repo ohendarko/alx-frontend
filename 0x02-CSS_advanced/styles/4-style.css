@@ -17,8 +17,6 @@ html {
   h4:before,
   h5:before,
   h6:before {
-    content: "";
-    display: block;
     font-family: var(--font-family-title);
   }
   
