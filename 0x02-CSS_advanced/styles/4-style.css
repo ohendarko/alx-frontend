@@ -3,6 +3,16 @@
     scroll-behavior: smooth;
   }
   
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-family-title);
+  }
+
   a {
     color: var(--text-color);
   }
@@ -11,21 +21,6 @@
     color: var(--text-color);
     font-family: var(--font-family-base);
   }
-
-  h1:before,
-  h2:before,
-  h3:before,
-  h4:before,
-  h5:before,
-  h6:before {
-    content: "";
-    display: block;
-    font-family: var(--font-family-title);
-  }
-  
-  /* a {
-    color: var(--text-color);
-  } */
   
   .visually-hidden {
     display: none;
